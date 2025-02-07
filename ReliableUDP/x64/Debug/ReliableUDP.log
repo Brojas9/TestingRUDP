@@ -1,0 +1,17 @@
+﻿  ServerSideOperations.cpp
+C:\UDP\testUDP\SENG2040_A01_ReliableUDP\Net.h(191,21): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+  (compiling source file 'ServerSideOperations.cpp')
+  
+C:\UDP\testUDP\SENG2040_A01_ReliableUDP\Net.h(911,29): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'ServerSideOperations.cpp')
+  
+C:\UDP\testUDP\SENG2040_A01_ReliableUDP\Net.h(912,30): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'ServerSideOperations.cpp')
+  
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+ReliableUDP.obj : warning LNK4006: "void __cdecl net::wait(float)" (?wait@net@@YAXM@Z) already defined in ClientSideOperations.obj; second definition ignored
+ReliableUDP.obj : warning LNK4006: main already defined in ClientSideOperations.obj; second definition ignored
+ServerSideOperations.obj : warning LNK4006: "void __cdecl net::wait(float)" (?wait@net@@YAXM@Z) already defined in ClientSideOperations.obj; second definition ignored
+ServerSideOperations.obj : warning LNK4006: main already defined in ClientSideOperations.obj; second definition ignored
+C:\UDP\testUDP\SENG2040_A01_ReliableUDP\x64\Debug\ReliableUDP.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
+  ReliableUDP.vcxproj -> C:\UDP\testUDP\SENG2040_A01_ReliableUDP\x64\Debug\ReliableUDP.exe
